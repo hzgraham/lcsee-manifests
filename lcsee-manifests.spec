@@ -12,6 +12,7 @@ Requires:
 
 %description
 
+Contains manifests for the LCSEE puppet server
 
 %prep
 %setup -q
