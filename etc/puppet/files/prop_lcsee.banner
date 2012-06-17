@@ -1,0 +1,29 @@
+Use WVU MasterID Credentials To Log In.
+
+Effective Monday, Aug 29 port 22 access to proprietary.lcsee.wvu.edu will be
+shutdown.  In order to connect change your port to port 20110.
+
+example:
+$ ssh -p 20110 mymasterid@proprietary.lcsee.wvu.edu
+
+To use Matlab run the following	command	at the prompt: 
+#matlab
+
+To use our cadence software run	the command:
+# cadence-5141
+for IC5141
+
+or 
+
+# cadence-610
+for IC610
+
+To use Matlab and Cadence you will need	to log in with X11 forwarding.
+See for further instructions:
+http://lcsee.wvu.edu/helpdesk/faq/#faqLinux15
+and
+http://lcsee.wvu.edu/helpdesk/faq/#faqLinux22
+
+
+email questions to lcseehelpdesk@mail.wvu.edu
+
